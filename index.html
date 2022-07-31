@@ -20,13 +20,62 @@
       src="https://kit.fontawesome.com/553e9c9aca.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="/src/styles/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <i class="fa-solid fa-map-pin"></i>
-      <h1>Hello world</h1>
+    <header class="header mt-4">
+      <nav class="navbar navbar-expand-sm mb-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./src/img/She Codes.png" alt="logo" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarText"
+          >
+            <ul class="navbar-nav mb-2 nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active-link px-3"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">Recipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner text-center">
+        <div class="wrapper">
+          <h1 class="banner-title">Recipe Collection</h1>
+          <p class="banner-desc">
+            Find a variety of inspiring recipes that are easy, delicious, and
+            healthy here
+          </p>
+        </div>
+      </div>
     </header>
 
     <script
