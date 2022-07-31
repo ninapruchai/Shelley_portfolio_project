@@ -51,6 +51,19 @@ body {
   font-weight: 700;
 }
 
+.social-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fa-brands {
+  font-size: 18px;
+}
+
+.footer {
+  background: #f9f7fe;
+}
+
 @media (max-width: 767px) {
   .banner {
     padding-right: 10px;
@@ -67,6 +80,10 @@ body {
   .recipes {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .logo-f {
+    padding-bottom: 20px;
   }
 }
 
