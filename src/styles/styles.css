@@ -30,9 +30,37 @@ body {
   background-repeat: no-repeat;
 }
 
-.banner-title {
+.title {
   font-size: 72px;
   font-weight: 700;
+}
+
+.title-2 {
+  font-size: 64px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.title-about {
+  margin-bottom: 126px;
+}
+
+.favorite-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.favorite {
+  margin-bottom: 100px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.banner-title {
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
 
@@ -51,6 +79,10 @@ body {
   font-weight: 700;
 }
 
+.favorite-recipe {
+  max-width: 360px;
+}
+
 .social-links {
   list-style: none;
   padding-left: 0;
@@ -58,6 +90,7 @@ body {
 
 .fa-brands {
   font-size: 18px;
+  color: var(--main-text-color);
 }
 
 .footer {
@@ -69,8 +102,13 @@ body {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .banner-title {
+  .banner-title,
+  .title {
     font-size: 48px;
+  }
+
+  .title-about {
+    margin-bottom: 50px;
   }
 
   .banner-desc {
@@ -90,5 +128,13 @@ body {
 @media (max-width: 991px) {
   .recipe-card:nth-child(2n + 1) {
     margin-bottom: 50px;
+  }
+
+  .title-2 {
+    font-size: 42px;
+  }
+
+  .favorite-title {
+    margin-top: 50px;
   }
 }
