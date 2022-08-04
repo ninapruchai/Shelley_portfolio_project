@@ -79,6 +79,11 @@ body {
   font-weight: 700;
 }
 
+.favorite-recipe-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .favorite-recipe {
   max-width: 360px;
 }
