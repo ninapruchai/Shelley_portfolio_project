@@ -18,6 +18,10 @@ p {
   line-height: 1.4;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   max-width: 150px;
 }
@@ -97,6 +101,11 @@ p {
   line-height: 1.4;
 }
 
+.contact-title {
+  text-transform: uppercase;
+  color: var(--accent-dark-color);
+}
+
 .step {
   color: var(--accent-light-color);
   font-weight: 800;
@@ -136,6 +145,10 @@ p {
   border-top: 1px dashed;
   opacity: 1;
   width: 110%;
+}
+
+.contact a {
+  color: var(--main-text-color);
 }
 
 @media (max-width: 767px) {
