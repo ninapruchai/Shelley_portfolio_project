@@ -9,6 +9,10 @@
 body {
   font-family: var(--brand-font);
 }
+ul {
+  list-style: none;
+  padding-left: 0;
+}
 
 .logo {
   max-width: 150px;
@@ -48,7 +52,6 @@ body {
 .favorite-title {
   font-size: 36px;
   font-weight: 700;
-  margin-top: 100px;
 }
 
 .favorite {
@@ -79,7 +82,7 @@ body {
   font-weight: 700;
 }
 
-.favorite-recipe-title {
+.title-h3 {
   font-size: 24px;
   font-weight: 700;
 }
@@ -88,9 +91,8 @@ body {
   max-width: 360px;
 }
 
-.social-links {
-  list-style: none;
-  padding-left: 0;
+.hero {
+  margin-bottom: 100px;
 }
 
 .fa-brands {
@@ -139,7 +141,7 @@ body {
     font-size: 42px;
   }
 
-  .favorite-title {
-    margin-top: 50px;
+  .hero {
+    margin-bottom: 50px;
   }
 }
